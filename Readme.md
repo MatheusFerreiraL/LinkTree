@@ -16,7 +16,7 @@ Neste projeto criei uma página com uma lista de links para redirecionamento, co
 
 ---
 
-Matheus Ferreira Leandro
+
 <a href="https://www.linkedin.com/in/matheusferreiraleandro/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" >
 </a>
