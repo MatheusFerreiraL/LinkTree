@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+}
+
+.link-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 15px;
+}
+
+.link-tree img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Efeito arredondado */
+    border: 2px solid var(--purple);
+    padding: 2px;
+}
+
+.link-tree h1 {
+    font-size: 2rem;
+}
+
+.link-tree a {
+    width: 30vw;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid var(--purple);
+}
+
+.link-tree a:hover{ /* hover afeta o código quando mouse passa por cima*/
+    background-color: var(--purple);
+    color: var(--body-bg-color)
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
